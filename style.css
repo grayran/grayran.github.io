@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --bgColor: #223344;
+    --bgColor: #000000;
     --bgColor2: #090a0f;
     --accentColor: #FFF;
     --font: 'Karla', sans-serif;
@@ -170,19 +170,19 @@ body {
     width: auto;
     height: auto;
     margin: 56px;
-    background-color: var(--accentColor);
+    background-color: transparent;
     /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
 }
 
 .popup-quote {
-    font-family : Baskerville, Georgia, serif;
-    font-style : italic;
+    font-family : monospace;
+    font-style : bold;
     position: flex;
     color: var(--accentColor);
     padding: 20px;
-    background-color: var(--bgColor);
+    background-color: transparent;
     text-align: center;
     font-size: 1rem;
 }
@@ -191,11 +191,13 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
+    background-color: transparent;
 }
 
 .popup-photo img {
     width: 100%;
     height: 100%;
+    background-color: transparent;
 }
 
 .overlay:target {
@@ -219,7 +221,7 @@ body {
     font-size: 1.7rem;
     font-weight: 400;
     border-radius: 100%;
-    background-color: var(--bgColor);
+    background-color: transparent;
     z-index: 4;
     color: var(--accentColor);
     line-height: 2.7rem;
