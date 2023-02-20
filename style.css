@@ -29,7 +29,7 @@ body {
 
 #profilePicture, #profilePicture img {
     position: relative;
-    width: 96px;
+    width: 150px;
     height: 96px;
     display: block;
     margin: 40px auto 20px;
